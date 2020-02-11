@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40e3a25d-09b9-42b1-a9d7-8c491f6ec153" name="Default Changelist" comment="" />
+    <list default="true" id="40e3a25d-09b9-42b1-a9d7-8c491f6ec153" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +29,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XfWfNc7zL37oKUjuBfldsCa7MB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
@@ -39,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.can_fill_library">
+  <component name="RunManager" selected="JUnit.LibraryTest.book_is_not_addded_if_library_is_full">
     <configuration name="BookTest.test_if_book_has_genre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library" />
       <option name="PACKAGE_NAME" value="" />
@@ -50,11 +57,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.test_if_book_has_title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.book_is_not_addded_if_library_is_full" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
-      <option name="METHOD_NAME" value="test_if_book_has_title" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="book_is_not_addded_if_library_is_full" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.book_is_not_addded_if_library_is_full" />
         <item itemvalue="JUnit.LibraryTest.can_fill_library" />
         <item itemvalue="JUnit.LibraryTest.can_add_book_to_library" />
         <item itemvalue="JUnit.LibraryTest.can_get_number_of_books_in_library_if_empty" />
         <item itemvalue="JUnit.BookTest.test_if_book_has_genre" />
-        <item itemvalue="JUnit.BookTest.test_if_book_has_title" />
       </list>
     </recent_temporary>
   </component>
@@ -112,5 +119,16 @@
       <updated>1581437731553</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

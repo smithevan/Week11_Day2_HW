@@ -31,6 +31,13 @@ public class LibraryTest {
         assertEquals(1000, library.numberOfBooks());
     }
 
+    @Test
+    public void book_is_not_addded_if_library_is_full() {
+        library.fillLibrary();
+        library.addBook(book1);
+        assertEquals(1000, library.numberOfBooks());
+    }
+
 
 
 
